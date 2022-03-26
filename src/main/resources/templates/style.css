@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 100%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.219) 1px 1px 10px;
+    z-index: 2;
+}
+
+
+header .nav{
+width: 50%;
+position: relative;
+transform: translate(100%);
+padding: 0.5rem;
+}
+
+.nav-link{
+color:#303030;
+}
+.nav-link:hover{
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-link:focus{
+    color: rgb(255, 255, 255);
+    background-color: #303030;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link
+{
+    background-color:#303030;
+}
+.table-dark
+{
+    transform: translate(-50%,0%);
+    left: 50%;
+    top: 5rem;
+    position:absolute;
+}
+.table > :not(caption) > * > *{
+padding: 0 5rem;
+}
